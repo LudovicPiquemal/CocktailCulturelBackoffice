@@ -9,7 +9,6 @@ module.exports = ({ env }) => ({
       database: 'cocktailDb',
       user: 'cocktailUser',
       password: 'test',
-      ssl: false
     },
     debug: false,
   },
