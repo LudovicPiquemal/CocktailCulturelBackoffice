@@ -1,4 +1,4 @@
-FROM node:12 AS builder
+FROM node:16 AS builder
 WORKDIR /app
 COPY ./package.json ./
 COPY ./package-lock.json ./
