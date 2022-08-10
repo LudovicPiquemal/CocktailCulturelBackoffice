@@ -1,8 +1,5 @@
 const path = require('path');
 
-console.log("*******")
-console.log(process.env)
-
 module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
