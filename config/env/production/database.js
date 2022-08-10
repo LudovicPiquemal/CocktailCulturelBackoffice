@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
       port: 5432,
       database: 'cocktailDb',
       user: 'cocktailUser',
-      password: process.env.DATABASE_PASSWORD,
+      password: 'test',
       ssl: false
     },
     debug: false,
