@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_black_lists",
+  "info": {
+    "singularName": "video-black-list",
+    "pluralName": "video-black-lists",
+    "displayName": "VideoBlackList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "chanel_white_list": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::chanel-white-list.chanel-white-list"
+    },
+    "youtubeId": {
+      "type": "string"
+    }
+  }
+}

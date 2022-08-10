@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stop_words",
+  "info": {
+    "singularName": "stop-word",
+    "pluralName": "stop-words",
+    "displayName": "StopWord"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "word": {
+      "type": "string"
+    }
+  }
+}
