@@ -4,11 +4,12 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
     connection: {
-      host: 'srv-captain--database',
-      port: 5432,
-      database: 'cocktailDb',
-      user: 'cocktailUser',
-      password: 'test',
+      host: env('DATABASE_HOST'),
+      port: env.int('DATABASE_PORT'),
+      database: env('DATABASE_NAME'),
+      user: env('DATABASE_USERNAME'),
+      password: env('DATABASE_PASSWORD'),
+      ssl: false
     },
     debug: false,
   },
