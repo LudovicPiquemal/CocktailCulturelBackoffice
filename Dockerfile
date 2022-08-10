@@ -6,4 +6,4 @@ COPY ./package-lock.json ./
 RUN npm install
 COPY . .
 RUN NODE_ENV=production npm run build
-CMD ["npm", "start"]
+CMD NODE_ENV=production npm run start
