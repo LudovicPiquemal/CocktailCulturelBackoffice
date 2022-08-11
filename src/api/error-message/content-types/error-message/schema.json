@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "error_messages",
+  "info": {
+    "singularName": "error-message",
+    "pluralName": "error-messages",
+    "displayName": "errorMessage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "channelWhiteListError": {
+      "type": "text"
+    },
+    "channelBlackListError": {
+      "type": "text"
+    },
+    "videoBlackListError": {
+      "type": "text"
+    }
+  }
+}

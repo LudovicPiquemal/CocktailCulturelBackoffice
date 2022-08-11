@@ -1,13 +1,13 @@
 {
   "kind": "collectionType",
-  "collectionName": "chanel_white_lists",
+  "collectionName": "channel_black_lists",
   "info": {
-    "singularName": "chanel-white-list",
-    "pluralName": "chanel-white-lists",
-    "displayName": "ChanelWhiteList"
+    "singularName": "channel-black-list",
+    "pluralName": "channel-black-lists",
+    "displayName": "ChannelBlackList"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -19,6 +19,9 @@
     },
     "url": {
       "type": "string"
+    },
+    "comment": {
+      "type": "text"
     }
   }
 }
